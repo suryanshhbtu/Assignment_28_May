@@ -1,5 +1,4 @@
-
-## Check Criteria
+## Overview
 
 This project utilizes the following technologies and dependencies:
 
@@ -12,7 +11,6 @@ This project utilizes the following technologies and dependencies:
   - `mysql-connector-j` (runtime)
 
 - **Testing**:
-  - `spring-boot-starter-test` (test scope)
   - `junit` (test scope)
 
 - **API Documentation**:
@@ -27,37 +25,35 @@ This project utilizes the following technologies and dependencies:
 - **CSV Handling**:
   - `opencsv` version 5.8
 
-## Installation
+## Setup
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```
    git clone <repository-url>
    cd project-directory
    ```
 
-2. Build the project:
-   ```
-   mvn clean install
-   ```
+2. **Build the project:**
+   - Compile your project using your preferred method (e.g., IDE, command line) as a Spring boot application.
 
-3. Run the project:
-   ```
-   mvn spring-boot:run
-   ```
+3. **Run the project:**
+   - Run your application using your preferred method (e.g., IDE, command line).
 
-4. Open your web browser and navigate to `http://localhost:8080/swagger-ui/index.html#/` to view the Swagger Documentation of the application.
+4. **Access the application:**
+   - Open your web browser and navigate to `http://localhost:8080/swagger-ui/index.html#/` to view the Swagger Documentation of the application.
 
 ## Configuration
 
-- **Database Configuration**:
-  - Update `application.properties` with your database connection details.
+- **Database Configuration:**
+  - Update `application.properties` or equivalent with your database connection details.
 
-- **Logging Configuration**:
-  - Customize logging configurations in `log4j2.xml` as needed.
+- **Logging Configuration:**
+  - Customize logging configurations in `log4j2.xml` or equivalent as needed.
 
 ## Usage
 
 - After starting the server, go to Swagger Documentation: `http://localhost:8080/swagger-ui/index.html#/`
 - Use various available options along with their usage details.
+
